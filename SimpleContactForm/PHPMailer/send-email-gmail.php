@@ -10,7 +10,7 @@ $mail->SMTPSecure = 'ssl';
 
 $mail->SMTPAuth = true;
 $mail->Username = "Enter your Gmail E-Mail Address";
-$mail->Password = "Enter your Password";
+$mail->Password = "Enter your Gmail E-Mail Password";
 
 //Sender Info (commented out because defined in contact-form.php)
 //$mail->From = "no-reply@ictdesignhub.com";

@@ -1,5 +1,8 @@
 <?php
-include_once "send-email-gmail.php";
+include_once "./PHPMailer/send-email-gmail.php";
+//or
+//include_once "./PHPMailer/send-email.php";
+//if you argoing to use something other than Gmail
 
 if (isset($_POST["Submit"])) {
 
