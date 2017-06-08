@@ -1,4 +1,7 @@
 <?php
+
+// Quelle: https://github.com/PHPMailer/PHPMailer
+
 require 'class.phpmailer.php';
 $mail = new PHPMailer();
 $mail->IsSMTP();
